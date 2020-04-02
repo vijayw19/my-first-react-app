@@ -35,15 +35,31 @@
 }
 
 h2, h3 {
-  width: 50%;
-  height: 60px;
   margin: 0;
   padding: 0;
   display: inline;
 }​
 
+.tab-list {
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 3.75rem;
+}
+
+.tab-list-active {
+  background-color: none;
+  border: solid rgb(204, 204, 204);
+  border-width: 1px 1px 0 1px;
+}
+
 .tablink:hover {
-  background-color: #777;
+  background-color: none;
 }
 
 .App-link {

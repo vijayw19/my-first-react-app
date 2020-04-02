@@ -4,21 +4,19 @@ import Footer from './footer.js';
 import Title from './title.js';
 import logo from './logo.svg';
 import './App.css';
+require('./App.css');
 
 function App() {
   return (
     <div className="logo">
-		<Header />
-		<Footer />
+    <Header />
+    <Title />
+    <Footer />
     </div>
-	
-/* 	<div className="logo">
-		<Header />
-		<Footer />
-    </div>
-		 */
-	
   );
 }
+
+const container = document.createElement('div');
+document.body.appendChild(container);
 
 export default App;
