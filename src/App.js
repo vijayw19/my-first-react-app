@@ -1,13 +1,23 @@
 import React from 'react';
+import Header from './header.js';
+import Footer from './footer.js';
+import Title from './title.js';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>welcome to first app...</h1>
-	  <h6>feeling good</h6>
+    <div className="logo">
+		<Header />
+		<Footer />
     </div>
+	
+/* 	<div className="logo">
+		<Header />
+		<Footer />
+    </div>
+		 */
+	
   );
 }
 
