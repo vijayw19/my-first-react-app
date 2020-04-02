@@ -6,24 +6,26 @@ function Header() {
   return (
     <Tabs>
       <div label="About Me">
-        Hello, <em>I am vijay Yadav</em>!
+        <h2 className="color">Hello I am Vijay Yadav</h2>
       </div>
       <div label="contact me">
-        <p>I am reachable #2269782803</p>
-        Mailing Address
-          <p>Apt no-1108</p>
-          <p>11 Overlea Drive</p>
-          <p>Kitchener, Ontario, Canada- N2M5C8</p>
+        <p className="color">I am reachable #2269782803<br/>
+          Mailing Address<br/>
+          Apt no-1108, 
+          11 Overlea Drive<br/>
+          Kitchener, Ontario, Canada- N2M5C8<br/>
         Email id: vijay.yadav.d1rv@gmail.com
+        </p>
       </div>
       
       <div label="Social Media">
-        <p><a href="https://www.w3schools.com/">LinkedIn</a></p>
-        <p><a href="https://www.w3schools.com/">Instagram</a></p>
+        <p><a className="color" href="https://www.w3schools.com/">LinkedIn</a><br />
+        <a className="color" href="https://www.w3schools.com/">Instagram</a>
+        </p>
       </div>
        
       <div label="Work Experience">
-        Under construction <em>Work Experience</em>!
+        <h2 className="color">Under Construction...</h2>
       </div>
 
 

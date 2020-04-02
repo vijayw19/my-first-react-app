@@ -4,9 +4,9 @@ import './Title.css';
 
 function Title() {
   return (
-    <div className="Title">
+    <div className="Title alignright">
       <header>
-        <h1>Hi This is Vijay Yadav</h1>
+        
       </header>
     </div>
   )

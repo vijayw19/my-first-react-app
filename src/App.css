@@ -33,6 +33,14 @@
   min-width: 100%;
   min-height: 100%;
 }
+.image{
+  width: 500%;
+  height: 300%;
+}
+.color{
+color: white;
+
+}
 
 h2, h3 {
   margin: 0;
@@ -48,18 +56,18 @@ h2, h3 {
 .tab-list-item {
   display: inline-block;
   list-style: none;
-  margin-bottom: -1px;
+  margin-bottom: -2px;
   padding: 0.5rem 3.75rem;
 }
 
 .tab-list-active {
-  background-color: none;
+  background-color: greenyellow;
   border: solid rgb(204, 204, 204);
   border-width: 1px 1px 0 1px;
 }
 
 .tablink:hover {
-  background-color: none;
+  background-color: gold;
 }
 
 .App-link {
