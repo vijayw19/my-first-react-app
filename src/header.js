@@ -5,27 +5,31 @@ import './App.css';
 function Header() {
   return (
     <Tabs>
-      <div label="About Me">
-        <h2 className="color">Hello I am Vijay Yadav</h2>
+      <div label="Vijay Yadav">
+        <h2>Hello I am Vijay Yadav</h2>
+        <h2><p className="a">An IT Professional with 6+ Years of </p>
+        experience in Devops Engineering
+        industry specialized in Scrum, <br/>
+        Agile and Kanban methodology.</h2>
       </div>
       <div label="contact me">
-        <p className="color">I am reachable #2269782803<br/>
+        <h2><p className="b">I am reachable #2269782803<br/>
           Mailing Address<br/>
           Apt no-1108, 
           11 Overlea Drive<br/>
           Kitchener, Ontario, Canada- N2M5C8<br/>
         Email id: vijay.yadav.d1rv@gmail.com
-        </p>
+        </p></h2>
       </div>
       
       <div label="Social Media">
-        <p><a className="color" href="https://www.w3schools.com/">LinkedIn</a><br />
-        <a className="color" href="https://www.w3schools.com/">Instagram</a>
+        <p><a className="color" href="https://linkedin.com/in/vijay-yadav-a58765119">LinkedIn</a><br />
+        <a className="color" href="https://github.com/vijayw19">GitHub</a>
         </p>
       </div>
-       
       <div label="Work Experience">
         <h2 className="color">Under Construction...</h2>
+
       </div>
 
 

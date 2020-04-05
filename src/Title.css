@@ -1,5 +1,5 @@
 .Title {
-  background-image: url(./images/my_image.png);
+  /*background-image: url(./images/my_image.png);*/
   box-sizing: border-box;
   width: 40%;
   display: flex;

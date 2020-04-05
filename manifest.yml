@@ -1,0 +1,9 @@
+---
+applications:
+- name: my-vijayw19
+  path: build/
+  memory: 128M
+  buildpacks: 
+    - staticfile_buildpack
+  routes:
+    - route: my-vijayw19.cfapps.io
